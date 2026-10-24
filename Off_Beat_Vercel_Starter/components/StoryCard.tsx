@@ -1,0 +1,2 @@
+import Link from 'next/link';import {Story} from '../lib/stories';
+export default function StoryCard({story,large=false}:{story:Story,large?:boolean}){return <Link className={'story-card '+(large?'large':'')} href={'/story/'+story.slug}><div className="story-image"><img src={story.image} alt="Illustrative editorial photograph" loading="lazy"/></div><div className="story-meta"><span>{story.category}</span><span>{story.read} MIN READ</span></div><h3>{story.title}</h3>{large&&<p>{story.dek}</p>}</Link>}

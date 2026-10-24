@@ -1,0 +1,1 @@
+export default function Contact(){return <main className="section simple-page"><div className="kicker">GET IN TOUCH</div><h1>Got a <em>story?</em></h1><p>Have an idea, a tip, a creative project or a collaboration to discuss? We'd love to hear it.</p><p>Contact details will be added once Off Beat confirms its official editorial email and social accounts.</p></main>}

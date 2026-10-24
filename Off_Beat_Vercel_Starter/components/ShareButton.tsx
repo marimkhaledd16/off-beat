@@ -1,0 +1,1 @@
+'use client';import {Share2} from 'lucide-react';export default function ShareButton(){return <button className="share-button" onClick={()=>{if(navigator.share)navigator.share({title:document.title,url:location.href});else navigator.clipboard.writeText(location.href).then(()=>alert('Link copied'));}}><Share2 size={18}/> SHARE</button>}

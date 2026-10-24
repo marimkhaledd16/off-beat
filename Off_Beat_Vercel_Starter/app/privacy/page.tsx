@@ -1,0 +1,1 @@
+export default function Privacy(){return <main className="section simple-page"><div className="kicker">POLICIES</div><h1>Privacy<span>.</span></h1><p>Privacy policy pending legal and editorial approval. Do not launch the website publicly without adding the approved policy and reviewing analytics and cookie requirements.</p></main>}
